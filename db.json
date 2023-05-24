@@ -1,0 +1,71 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "tvShow": "Game of Thrones",
+      "name": "Joffrey",
+      "house": "Lannister",
+      "alive": true,
+      "communicate": "You're all gonna die",
+      "rulingYears": 3
+    },
+    {
+      "id": 2,
+      "tvShow": "Game of Thrones",
+      "name": "Daenerys",
+      "house": "Targaryen",
+      "alive": true,
+      "communicate": "First hit, then ask",
+      "weapon": "dragons",
+      "skills": 7
+    },
+    {
+      "id": 3,
+      "tvShow": "Game of Thrones",
+      "name": "Jaime",
+      "house": "Lannister",
+      "alive": true,
+      "communicate": "First hit, then ask",
+      "weapon": "sword",
+      "skills": 9
+    },
+
+    {
+      "id": 4,
+      "tvShow": "Game of Thrones",
+      "name": "Tyrion",
+      "house": "Lannister",
+      "alive": true,
+      "communicate": "I think I'll be dying soon",
+      "characterAdviced": {
+        "id": 2,
+        "tvShow": "Game of Thrones",
+        "name": "Daenerys",
+        "house": "Targaryen",
+        "alive": true,
+        "communicate": "First hit, then ask",
+        "weapon": "dragons",
+        "skills": 7
+      }
+    },
+
+    {
+      "id": 5,
+      "tvShow": "Game of Thrones",
+      "name": "Bronn",
+      "house": "Stannis",
+      "alive": true,
+      "communicate": "I'm a loser",
+      "pelotismo": 3,
+      "knight": {
+        "id": 4,
+        "tvShow": "Game of Thrones",
+        "name": "Tyrion",
+        "house": "Lannister",
+        "alive": true,
+        "communicate": "I think I'll be dying soon",
+        "characterAdviced": "Daenerys"
+      }
+    }
+  ]
+}
