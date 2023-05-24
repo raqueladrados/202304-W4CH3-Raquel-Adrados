@@ -3,13 +3,6 @@ import { Character } from "../models/all.characters";
 export function CardCharacter() {
   return (
     <>
-      {characters.map((item) => (
-        <CardCharacter>
-          item={item}
-          handleUpdate={handleUpdate}
-          handleLoad={handleLoad}
-        </CardCharacter>
-      ))}
       <li className="character col" />
       <div className="card character__card" />
       <img
