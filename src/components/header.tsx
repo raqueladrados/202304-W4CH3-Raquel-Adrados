@@ -1,5 +1,5 @@
 export function Header() {
-  const title = "Form with react and typescript";
+  const title = "GAME OF THRONES";
   return (
     <>
       <header className="title">

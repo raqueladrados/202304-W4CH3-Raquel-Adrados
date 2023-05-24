@@ -15,17 +15,6 @@ export function useList() {
     setCharacters(loadedCharacters);
   }, [repo]);
 
-  const handleKill = async (character: Character) => {
-    if (character.alive) {
-      try {
-        character.alive = false;
-        await repo.update(character);
-      } catch (error) {}
-    } else {
-      console.log("El personaje está muerto");
-    }
-  };
-
   const handleUpdate = async (character: Character) => {
     try {
       const updatedTask = await repo.update(character.id, character);
@@ -42,6 +31,5 @@ export function useList() {
   return {
     handleLoad,
     handleUpdate,
-    handleKill,
   };
 }
