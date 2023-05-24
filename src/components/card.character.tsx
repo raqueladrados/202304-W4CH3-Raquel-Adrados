@@ -1,5 +1,3 @@
-import { Character } from "../models/all.characters";
-
 export function CardCharacter() {
   return (
     <>
