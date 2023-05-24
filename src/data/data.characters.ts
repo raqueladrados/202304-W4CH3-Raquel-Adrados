@@ -2,7 +2,7 @@ import { Counselor } from "../models/counselor.ts";
 import { Fighter } from "../models/fighter.ts";
 import { King } from "../models/king.ts";
 import { Squire } from "../models/squire.ts";
-import { AllCharacters } from "../types/all.characters.ts";
+import { AllCharacters } from "../models/all.characters.ts";
 
 export const createCharacters = () => {
   const charactersList: AllCharacters[] = [];
